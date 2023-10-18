@@ -1,20 +1,17 @@
 body {
-  background-color: cadetblue;
-  font-family: Arial, Helvetica, sans-serif;
-  text-align: center;
-  }
-
-h1 {
-  text-align: center;
+background: cadetblue;
+font-family: Arial, Helvetica, sans-serif;
 }
-
+h1 {
+color: [pick a font color];
+text-align: center;
+}
 .assign {
 display: flex;
 padding: 10px;
 margin: 10px;
-background: [pick a color];
+background: white;
 }
 .assign img {
 width: 200px;
 padding: 10px;
-}
