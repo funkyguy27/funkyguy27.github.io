@@ -1,0 +1,66 @@
+/* Reset some default styles for better control */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+
+/* Style the header */
+h1 {
+  text-align: center;
+  font-size: 36px;
+  color: #333;
+  margin: 20px 0;
+}
+
+h2 {
+  text-align: center;
+  color: #666;
+  margin: 10px 0;
+}
+
+/* Style the sections */
+.assign {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  margin: 20px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+}
+
+/* Style images within sections */
+.assign img {
+  max-width: 100px;
+  margin-right: 20px;
+}
+
+/* Style section details */
+.assign-det {
+  flex-grow: 1;
+}
+
+/* Style headings and paragraphs within sections */
+.assign-det h2 {
+  font-size: 24px;
+  color: #333;
+  margin: 0;
+}
+
+.assign-det p {
+  color: #666;
+  margin: 10px 0;
+}
+
+/* Style links within sections */
+.assign-det a {
+  text-decoration: none;
+  color: #0078d4;
+}
+
+/* Change link color on hover */
+.assign-det a:hover {
+  color: #0056b3;
+}
